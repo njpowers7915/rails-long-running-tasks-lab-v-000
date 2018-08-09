@@ -610,3 +610,4 @@ Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.1ms)
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
 Processing by SongsController#upload as HTML
   Parameters: {"file"=>#<Rack::Test::UploadedFile:0x000000038c1998 @content_type="text/csv", @original_filename="songs.csv", @tempfile=#<Tempfile:/tmp/songs.csv20180809-2198-1tkjq1p>>}
+  [1m[35mSong Load (0.3ms)[0m  SELECT "songs".* FROM "songs"
